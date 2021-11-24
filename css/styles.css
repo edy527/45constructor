@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;900&display=swap');
+
+.header-container {
+    background-image: url(../img/portada.jpg);
+    height: 576px
+}
+
+.header-title-container {
+    margin: 0;
+    padding: 0;
+    height: 70%;
+}
+.header-title-contents{
+    width: 600px;
+}
+h1 {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 900;
+    /* font-size: 64px !important; */
+    line-height: 80px;
+
+    color: #FFFFFF;
+}
