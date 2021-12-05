@@ -1,18 +1,45 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;900&display=swap');
 
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+body {
+    background-color: #EBEBEB;
+}
+
 .header-container {
     background-image: url(../img/portada.jpg);
-    height: 576px
+    height: 576px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 
 .header-title-container {
     margin: 0;
     padding: 0;
     height: 70%;
 }
-.header-title-contents{
+
+/* .header-title-contents {
     width: 600px;
+} */
+
+.services-description {
+    background-color: #fff;
+    margin-bottom: 0;
 }
+
+.testimonials {
+    background-color: #D6B1B1;
+    height: 336px;
+    /*  width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
 h1 {
     font-family: Mulish;
     font-style: normal;
@@ -21,4 +48,142 @@ h1 {
     line-height: 80px;
 
     color: #FFFFFF;
+}
+
+/* .contact-img-container{
+    max-width: 708px;
+    padding-right: 20px;
+} */
+.contact h2 {
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 45px;
+    letter-spacing: 0em;
+    color: #000
+}
+
+.contact h3 {
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: rgba(0, 0, 0, 0.5);
+
+}
+
+.form label,
+.social p {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 18px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.form button {
+    width: 187px;
+    height: 43px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    color: #000000;
+    margin-bottom: 59px;
+}
+.form button:hover{
+    color: #EBEBEB;
+    background-color: #000;
+}
+.form button:focus{
+    color: #EBEBEB;
+    background-color: #000;
+}
+
+.form h3 {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 30px;
+
+    color: #000000;
+}
+
+.social {
+
+    margin-bottom: 43px;
+}
+
+.social h3 {
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.social a {
+    text-decoration: none;
+    font-family: Mulish;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 23px;
+    /* identical to box height */
+
+
+    color: #000000;
+}
+
+form input {
+    width: 100%;
+    font-size: 18px;
+    padding: 10px 10px 10px 5px;
+    border: none;
+    border-bottom: 1px solid #757575;
+    background-color: transparent;
+
+}
+
+input:focus {
+    outline: none;
+}
+
+form label {
+    color: #999;
+    font-size: 18px;
+    font-weight: normal;
+    pointer-events: none;
+}
+form textarea{
+    width: 100%;
+    background-color: transparent;
+}
+.social-footer{
+    background-color: #000;
+    height: 236px;
+    width:100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding:0;
+    margin:0;
+
+}
+
+.footer-logo, .footer-socila-content{
+    width: auto;
+}
+
+.footer section{
+    padding:0
 }

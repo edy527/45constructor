@@ -9,7 +9,16 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./css/custom.css">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Hello, world!</title>
+    <title>45ConstructionCorp</title>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+
+    <!-- <script>
+        var myCarousel = document.querySelector('#carouselExampleSlidesOnly')
+        var carousel = new bootstrap.Carousel(myCarousel, {
+            interval: 1000,
+            wrap: true
+        })
+    </script> -->
 </head>
 
 <body>
@@ -17,7 +26,8 @@
     <header class="container-fluid header-container">
         <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
             <div class="container">
-                <a class="navbar-brand me-auto" href="#"><img src="./img/iconos/logo.png" alt="Logo"></a>
+                <a class="navbar-brand me-auto" href="./index.html"><img src="./img/iconos/LOGO-C45.svg" class="logo"
+                        alt="Logo"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
@@ -42,85 +52,175 @@
                 <span>Corporation</span>
             </div>
         </div>
-
-
     </header>
 
-    <section class="services">
-        <h2>Our Services</h2>
-        <div class="services-photos">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
-            <img src="" alt="">
+    <section class="container text-center" id="services">
+        <div class="row d-flex gallery">
+            <h2 class="my-5">Our Services</h2>
+            <div class="col-md-4 my-4 services-photos ">
+                <img class=" img-fluid  " src="./img/trabajos/image-9.jpg" alt="">
+            </div>
+            <div class="col-md-4 my-4 services-photos ">
+                <img class=" img-fluid " src="./img/trabajos/image-10.jpg" alt="">
+            </div>
+            <div class="col-md-4 my-4 services-photos ">
+                <img class="img-fluid  " src="./img/trabajos/image-11.jpg" alt="">
+            </div>
+            <div class="col-md-4 my-4 services-photos ">
+                <img class="img-fluid  " src="./img/trabajos/image-6.jpg" alt="">
+            </div>
+            <div class="col-md-4 my-4 services-photos ">
+                <img class=" img-fluid " src="./img/trabajos/image-7.jpg" alt="">
+            </div>
+            <div class="col-md-4 my-4 services-photos ">
+                <img class=" img-fluid" src="./img/trabajos/image-5.jpg" alt="">
+            </div>
+            <div class="col-md-4 my-4 services-photos ">
+                <img class="img-fluid " src="./img/trabajos/image-8.jpg" alt="">
+            </div>
+            <div class="col-md-4 my-4 services-photos ">
+                <img class="img-fluid " src="./img/trabajos/image-4.jpg" alt="">
+            </div>
+            <div class="col-md-4 my-4 services-photos ">
+                <img class="img-fluid " src="./img/trabajos/image-3.jpg" alt="">
+            </div>
+            <div class="col-md-4 my-4 services-photos ">
+                <img class="img-fluid " src="./img/trabajos/image-1.jpg" alt="">
+            </div>
+            <div class="col-md-4 my-4 services-photos ">
+                <img class="img-fluid " src="./img/trabajos/image-2.jpg" alt="">
+            </div>
+            <div class="col-md-4 my-4 services-photos ">
+                <img class="img-fluid " src="./img/trabajos/image-12.jpg" alt="">
+            </div>
         </div>
-        <div class="services-description">
-            <div class="serv-item">
+    </section>
+
+    <div class="container-fluid"  >
+        <section class=" row services-description  d-flex justify-content-center pt-2">
+            <div class="col-md-3 serv-item">
                 <h3>Drywall</h3>
                 <p>Any of various large rigid sheets of finishing material used in drywall construction to face the
                     interior walls of dwellings and other buildings.<br>
                     Drywall construction is the application of walls without the use of mortar or plaster</p>
             </div>
+            <div class="col-md-3 serv-item">
+                <h3>Skim Coat</h3>
+                <p>Is a texturing technique used to make a wall smooth. Drywallers use this technique to hide an
+                    imperfect
+                    taping job, to give the wall a plaster-like appearance in situations when only the smoothest surface
+                    will do. Skim coated is the only way to archieve a level 5 drywall finish, which a number of trade
+                    associations, including the Painting and Decorating Constractors of America recommend for areas of
+                    bright or critical lighting.</p>
+            </div>
+            <div class="col-md-3 serv-item">
+                <h3>Cover Coat</h3>
+                <p>Used for filling and smoothing above-grade, monolithic interior concrete ceilings and columns,
+                    embedding
+                    paper drywall tape or acting as the first fill coat on bead, trim and fasteners. The compound dries
+                    white
+                    for a quick, easy finish.</p>
+            </div>
+        </section>
+    </div>
+
+    <section class="container-fluid testimonials">
+        <div class="row">
+            <div id="carouselExampleSlidesOnly"
+                class="carousel slide col-md-12  d-flex justify-content-center align-items-center" style="height:336px;"
+                data-bs-ride="carousel">
+                <div class="carousel-inner text-center ">
+                    <div class="carousel-item active">
+                        <h4 class="d-block">I loved how the finished work turned out, with seriousness and
+                            responsibility</h4>
+                        <span>-Anna Taylor</span>
+                    </div>
+                    <div class="carousel-item">
+                        <h4> They were great & the price for the work done was very good.</h4>
+                        <span>-Jason Munch</span>
+                    </div>
+                </div>
+            </div>
         </div>
-        <div class="serv-item">
-            <h3>Skim Coat</h3>
-            <p>Is a texturing technique used to make a wall smooth. Drywallers use this technique to hide an imperfect
-                taping job, to give the wall a plaster-like appearance in situations when only the smoothest surface
-                will do. Skim coated is the only way to archieve a level 5 drywall finish, which a number of trade
-                associations, including the Painting and Decorating Constractors of America recommend for areas of
-                bright or critical lighting.</p>
-        </div>
-        <div class="serv-item"></div>
-        <h3>Cover Coat</h3>
-        <p>Used for filling and smoothing above-grade, monolithic interior concrete ceilings and columns, embedding
-            paper drywall tape or acting as the first fill coat on bead, trim and fasteners. The compound dries white
-            for a quick, easy finish.</p>
-        </div>
+
     </section>
 
-    <section class="testimonies">
-        <div class="testimonial-item">
-            <h4>I loved how the finished work turned out, with seriousness and responsibility</h4>
-            <span>-Anna Taylor</span>
+    <section class="contact container-fluid">
+        <div class="row" id="contact">
+            <div class="col-md-6 contact-img-container">
+                <img class="img-fluid w-100" src="./img/img-contacto.jpg" alt="image-contact">
+            </div>
+
+            <div class="col-md-6 mt-3">
+                <h2 class=".fs-1 text">We are in New York City</h2>
+                <h3>Contact us for a quote or help.</h3>
+
+                <section class="form">
+                    <h3>Ask a question</h3>
+                    <form action="https://formspree.io/f/mgedwooa" method="POST">
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Name</label>
+                            <input type="email" class="form-control-sm" id="exampleFormControlInput1"
+                                placeholder="Name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email</label>
+                            <input type="email" class="form-control-sm" id="exampleFormControlInput1"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                            <textarea class="form-control-sm" id="exampleFormControlTextarea1" rows="6"></textarea>
+                        </div>
+                        <button>Send message</button>
+                    </form>
+                </section>
+                <div class="social row">
+                    <h3>Folow us</h3>
+                    <div>
+                        <p class="">Instagram</p>
+                        <a href="https://www.instagram.com/45constructioncorp/?hl=es"
+                            target="blank">/45ConstructionCORP</a>
+                    </div>
+                    <!-- <div class="pt-3">
+                        <p>Facebook</p>
+                        <a href="https://www.facebook.com/45-Construction-Corporation-104764371602005/"
+                            target="blank">/45ConstructionCORP</a>
+                    </div> -->
+
+
+
+
+                </div>
+
+
+            </div>
         </div>
-        <div class="testimonial-item">
-            <h4> They were great & the price for the work done was very good.</h4>
-            <span>-Jason Munch</span>
-        </div>
+
     </section>
 
-    <section class="contact">
-        <div class="img-contact">
-            <img src="" alt="image-contact">
-        </div>
-        <h2>We are in New York City</h2>
-        <h3>Contact us for a quote or help.</h3>
-        <section></section>div>
-        <div class="form">
-            <form action="https://formspree.io/f/mgedwooa" method="POST">
-                <label>
-                    Your Name:
-                    <input type="text" name="name">
-                    </label><br>
-                <label>
-                    Your email:
-                    <input type="email" name="_replyto">
-                </label><br>
-                <label>
-                    Your message:
-                    <textarea name="message"></textarea>
-                </label><br>
-                <!-- your other form fields go here -->
-                <button type="submit">Send</button>
-            </form>
-        </div>
-    </section>
-
+    <footer class="footer">
+        <section class="container-fluid">
+            <div class="social-footer row">
+                <div class="col-md-4 footer-logo">
+                    <img src="./LOGO-C45b.svg" alt="">
+                </div>
+                <div class="col-md-4 footer-socila-content">
+                    <a href="/" class="text-white nav-link">
+                        <img src="./img/iconos/cib_gmail.png" alt="Gmail logo">
+                        <span>Ejemplo@gmail.com</span>
+                    </a>
+                </div>
+                <div class="col-md-4 footer-socila-content">
+                    <a href="https://www.instagram.com/45constructioncorp/?hl=es" target="_blank" class="text-white nav-link">
+                        <img src="./img/iconos/Vector.png" alt="Gmail logo">
+                        <span>/45ConstructionCORP</span>
+                    </a>
+                </div>
+                
+            </div>
+        </section>
+    </footer>
 
 
 
@@ -140,6 +240,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
+
 </body>
 
 </html>
