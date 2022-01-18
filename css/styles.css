@@ -1,10 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;900&display=swap');
 
-body {
-    font-family: 'Mulish', sans-serif;
-}
 
 body {
+    font-family: 'Mulish', sans-serif;
     background-color: #EBEBEB;
 }
 
@@ -22,31 +20,37 @@ body {
     height: 70%;
 }
 
-/* .header-title-contents {
-    width: 600px;
-} */
+
 
 .services-description {
     background-color: #fff;
     margin-bottom: 0;
 }
 
+.serv-item {
+
+    align-items: center;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+    width: 200px;
+    background: #D6B1B1;
+    color: #333;
+}
+
+.serv-item:hover {
+    background-color: #db9b9b;
+}
+
 .testimonials {
     background-color: #D6B1B1;
     height: 336px;
-    /*  width:100%;
-    display: flex;
-    align-items: center;
-    justify-content: center; */
 }
 
 h1 {
-    font-family: Mulish;
     font-style: normal;
     font-weight: 900;
-    /* font-size: 64px !important; */
     line-height: 80px;
-
     color: #FFFFFF;
 }
 
@@ -56,16 +60,11 @@ h2 {
 
 h3 {
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 800;
     line-height: 30px;
 }
 
-/* .contact-img-container{
-    max-width: 708px;
-    padding-right: 20px;
-} */
 .contact h2 {
-    font-family: Mulish;
     font-size: 36px;
     font-style: normal;
     font-weight: 900;
@@ -75,19 +74,16 @@ h3 {
 }
 
 .contact h3 {
-    font-family: Mulish;
     font-size: 24px;
     font-style: normal;
     font-weight: 900;
     line-height: 30px;
     letter-spacing: 0em;
     color: rgba(0, 0, 0, 0.5);
-
 }
 
 .form label,
 .social p {
-    font-family: Mulish;
     font-style: normal;
     font-weight: 900;
     font-size: 14px;
@@ -108,17 +104,18 @@ h3 {
     color: #000000;
     margin-bottom: 59px;
 }
-.form button:hover{
+
+.form button:hover {
     color: #EBEBEB;
     background-color: #000;
 }
-.form button:focus{
+
+.form button:focus {
     color: #EBEBEB;
     background-color: #000;
 }
 
 .form h3 {
-    font-family: Mulish;
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
@@ -133,7 +130,6 @@ h3 {
 }
 
 .social h3 {
-    font-family: Mulish;
     font-style: normal;
     font-weight: 900;
     font-size: 24px;
@@ -143,24 +139,21 @@ h3 {
 
 .social a {
     text-decoration: none;
-    font-family: Mulish;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 23px;
-    /* identical to box height */
-
-
     color: #000000;
 }
 
-form input {
+.form form input {
     width: 100%;
     font-size: 18px;
     padding: 10px 10px 10px 5px;
     border: none;
     border-bottom: 1px solid #757575;
     background-color: transparent;
+    border-radius: 0;
 
 }
 
@@ -174,26 +167,38 @@ form label {
     font-weight: normal;
     pointer-events: none;
 }
-form textarea{
+
+form textarea {
     width: 100%;
     background-color: transparent;
 }
-.social-footer{
+
+.social-footer {
     background-color: #000;
     height: 236px;
-    width:100%;
+    width: 100%;
     display: flex;
-    justify-content:center;
-    align-items:center;
-    padding:0;
-    margin:0;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
 
 }
 
-.footer-logo, .footer-socila-content{
+.footer-logo,
+.footer-socila-content {
     width: auto;
 }
 
-.footer section{
-    padding:0
+.footer-logo {
+    margin-right: 170px;
 }
+
+.footer section {
+    padding: 0
+}
+.galeria-video video{
+    max-width: 360px ;
+    
+}  
+

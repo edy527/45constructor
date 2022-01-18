@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "purgecss --css css/custom.css --content <content> [options]"
+    "build": "purgecss --css css/custom.css --content index.html -o css/reducido.css"
   },
   "repository": {
     "type": "git",
