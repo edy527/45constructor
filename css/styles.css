@@ -20,27 +20,23 @@ body {
     height: 70%;
 }
 
-
-
+#nombre-servicios {
+    /* margin-bottom: 100px !important; */
+    height:240px
+}
+ 
 .services-description {
     background-color: #fff;
-    margin-bottom: 0;
+    margin-bottom: 100px;
 }
 
 .serv-item {
-
-    align-items: center;
-    display: flex;
-    height: 100px;
-    justify-content: center;
-    width: 200px;
-    background: #D6B1B1;
+    background: #fff;
     color: #333;
+    
 }
 
-.serv-item:hover {
-    background-color: #db9b9b;
-}
+
 
 .testimonials {
     background-color: #D6B1B1;
@@ -60,8 +56,12 @@ h2 {
 
 h3 {
     font-size: 25px;
-    font-weight: 800;
+    font-weight: 600;
     line-height: 30px;
+}
+
+h4 {
+font-weight: 800;
 }
 
 .contact h2 {
@@ -83,14 +83,17 @@ h3 {
 }
 
 .form label,
-.social p {
+.social p, .mail p {
     font-style: normal;
     font-weight: 900;
     font-size: 14px;
     line-height: 18px;
     color: rgba(0, 0, 0, 0.5);
+    margin-bottom:0;
 }
-
+.mail p{
+    margin-bottom:0;
+}
 .form button {
     width: 187px;
     height: 43px;
@@ -120,15 +123,15 @@ h3 {
     font-weight: 900;
     font-size: 24px;
     line-height: 30px;
-
     color: #000000;
 }
 
 .social {
-
     margin-bottom: 43px;
 }
-
+.social-container{
+    margin-bottom:15px;
+}
 .social h3 {
     font-style: normal;
     font-weight: 900;
@@ -137,7 +140,7 @@ h3 {
     color: #000000;
 }
 
-.social a {
+.social a, .mail a {
     text-decoration: none;
     font-style: normal;
     font-weight: normal;
