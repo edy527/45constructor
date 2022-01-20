@@ -58,6 +58,9 @@
   --bs-body-bg: #fff;
 }
 
+
+
+
 *,
 *::before,
 *::after {
@@ -333,6 +336,12 @@ textarea {
         -ms-flex: 0 0 auto;
             flex: 0 0 auto;
     width: 16.66667%;
+  }
+  .col-md-3 {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+    width: 25%;
   }
   .col-md-4 {
     -webkit-box-flex: 0;

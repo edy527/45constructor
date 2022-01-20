@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;900&display=swap');
 
 
+
+
 body {
     font-family: 'Mulish', sans-serif;
     background-color: #EBEBEB;
@@ -12,12 +14,18 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.logo-nav{
+    width: 180px
+}
 
 .header-title-container {
     margin: 0;
     padding: 0;
     height: 70%;
+}
+
+.header-title-container span {
+    font-size: 2em;
 }
 
 #nombre-servicios {
@@ -43,12 +51,14 @@ body {
     height: 336px;
 }
 
-h1 {
+.title  {
     font-style: normal;
     font-weight: 900;
     line-height: 80px;
     color: #FFFFFF;
+    font-size: 4em;
 }
+
 
 h2 {
     font-weight: bold;
@@ -204,4 +214,32 @@ form textarea {
     max-width: 360px ;
     
 }  
+
+@media (max-width: 576px) { 
+    
+    .logo-nav{
+        width: 130px;
+    }
+    .title{
+        font-size: 2em;
+    }
+    .header-container{
+        padding:0;
+        
+
+    }
+    .header-container button {
+        background-color: #EBEBEB;
+    }
+    .header-container nav{
+        background-color: #333 !important;
+        width: 100%;
+        margin: 0;
+        padding: 0
+    }
+
+    #nombre-servicios{
+       height: 45vh
+    }
+ }
 
