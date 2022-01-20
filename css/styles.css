@@ -23,6 +23,10 @@ body {
     padding: 0;
     height: 70%;
 }
+.header-title-container-img {
+    width: 30em;
+    margin-top: -50px;
+}
 
 .header-title-container span {
     font-size: 2em;
@@ -51,12 +55,12 @@ body {
     height: 336px;
 }
 
-.title  {
+h1  {
     font-style: normal;
     font-weight: 900;
     line-height: 80px;
     color: #FFFFFF;
-    font-size: 4em;
+    font-size: .9em;
 }
 
 
@@ -216,13 +220,12 @@ form textarea {
 }  
 
 @media (max-width: 576px) { 
+    .header-title-container-img {
+        width: 22em;
+        margin-top: 35px;
+    }
     
-    .logo-nav{
-        width: 130px;
-    }
-    .title{
-        font-size: 2em;
-    }
+    
     .header-container{
         padding:0;
         
