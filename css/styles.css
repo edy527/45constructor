@@ -241,5 +241,12 @@ form textarea {
     #nombre-servicios{
        height: 45vh
     }
+
+    .footer-logo{
+        margin: auto;
+    }
+    .social-footer{
+        height:250px
+    }
  }
 
